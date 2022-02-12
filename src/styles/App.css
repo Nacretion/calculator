@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+html {
+}
+
+body {
+  background-color: #bdbdbd;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.keyBoard {
+  min-width: 400px;
+  position: relative;
+  top: -5vh;
+  width: 30vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+label {
+  z-index: 9;
+  width: 30vw;
+  text-align: right;
+  position: relative;
+}
+
+
+.preCalc {
+  padding: 0 2vw;
+  top: 18vh;
+  color: teal;
+}
+.lastCalculatedValue {
+  padding: 0 1vw;
+  top: 5vh;
+  color: #9f9f9f;
+}
+
+.operationButton {
+  color: coral !important;
+}
+
+img {
+  width: 15%;
+}

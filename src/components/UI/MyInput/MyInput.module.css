@@ -1,0 +1,17 @@
+.myInput {
+    min-width: 400px;
+    position: relative;
+    top: -5vh;
+    display: table-cell;
+    vertical-align: bottom;
+    border: none;
+    outline: none;
+    width: 30vw;
+    height: 25vh;
+    padding: 5vh 2vw 0 2vw;
+    text-align: right;
+    cursor: default;
+    font-size: calc(2vh + 2vw);
+    background-color: #000000;
+    color: white;
+}

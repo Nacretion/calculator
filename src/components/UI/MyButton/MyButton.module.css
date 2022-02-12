@@ -1,0 +1,13 @@
+.myButton {
+    display: flex;
+    background: #000000;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border: none;
+    font-size: 100%;
+    transition: background-color 100ms;
+}
+.myButton:hover {
+    background: #484848;
+}
